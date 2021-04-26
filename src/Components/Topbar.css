@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 4px 22px #ccc;
+  background-color: #f2fff6;
+  height: 60px;
+}
+.left-part{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.logo > p {
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.button {
+  position: absolute;
+  cursor: pointer;
+  right: 40px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 24px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 0 10px;
+  outline: none;
+  border: none;
+  width: 80px;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  background-color:rgba(201, 0, 0, 0.822);
+}
+.button:hover{
+  background-color:  rgba(120, 145, 146, 0.699);
+  color: rgba(255, 255, 255, 1);
+}
+.logo
+{
+  height:40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(99, 87, 202, 0.6);
+}
